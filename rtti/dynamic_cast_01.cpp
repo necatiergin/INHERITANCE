@@ -10,6 +10,6 @@ public:
 
 void func(Base* baseptr)
 {
-	if (auto pder = dynamic_cast<Der*>(baseptr)) //invalid
+	if (auto pder = dynamic_cast<Der*>(baseptr)) //invalid, operand is not polymorphic
 		pder->derfoo();
 }
