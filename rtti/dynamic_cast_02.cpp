@@ -30,13 +30,12 @@ void func(Base* p)
 		fptr->f();
 	}
 	else if (Bar* bptr = dynamic_cast<Bar*>(p)) {
-
+		bptr->b();
 	}
 }
 
 int main()
 {
-
 	auto foo_ptr = new Foo;
 	auto bar_ptr = new Bar;
 
