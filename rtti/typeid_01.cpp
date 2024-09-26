@@ -4,12 +4,12 @@
 class Base {
 public:
 	//virtual ~Base() {}
-	//yorum satırından çıkartıp tekrar derleyip çalıştırın
+	//compile also with virtual destructor
 };
 
 
 class Der : public Base {
-
+	//...
 };
 
 
