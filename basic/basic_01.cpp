@@ -2,7 +2,6 @@ class Base {
 	//...
 };
 
-
 class A : public Base { }; //public inheritance
 class B : private Base { }; //private inheritance
 class C : protected Base { }; //protected inheritance
