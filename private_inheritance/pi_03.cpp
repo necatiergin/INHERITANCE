@@ -25,11 +25,11 @@ void f1()
 void f2()
 {
 	Der der;
-	foo(der); //gecersiz
+	foo(der); //invalid
 }
 
 void f3()
 {
 	Der der;
-	foo(der); //gecersiz
+	foo(der); //invalid
 }
