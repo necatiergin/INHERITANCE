@@ -5,5 +5,5 @@ class Myclass;
 
 int main()
 {
-	const auto& t = typeid(Myclass); //error - icomplete type
+	const auto& t = typeid(Myclass); //error - incomplete type
 }
