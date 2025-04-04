@@ -2,13 +2,13 @@
 #include <cassert>
 #include <typeindex>
 
-class Nec{};
+class Nec {};
 
 int main()
 {
 	const std::type_info& t1 = typeid(Nec);
 	const std::type_info& t2 = typeid(Nec);
-																						
+
 	assert(&t1 == &t2); // may fail
 	assert(t1 == t2); // holds
 	assert(t1.hash_code() == t2.hash_code()); // holds
